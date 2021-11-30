@@ -1,10 +1,9 @@
-name: Docker Image CI
-
+name: build
 on:
   push:
-    branches: [ lulukelu/provider-aws ]
+    branches:
+      - master
   pull_request:
-
 jobs:
   build:
     name: Build
